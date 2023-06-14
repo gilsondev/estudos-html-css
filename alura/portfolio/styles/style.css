@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --main-color: #22D4FD;
+    --secondary-color: #F6F6F6;
+    --terciary-color: #272727;
+    --background: #000000;
+    --primary-text: "Montserrat", sans-serif;
+    --secondary-text: "Krona One", sans-serif;
+}
+
 body {
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--background);
+    color: var(--secondary-color);
 }
 
 .header {
@@ -17,11 +26,11 @@ body {
 }
 
 .nav-link {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--primary-text);
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--main-color);
 }
 
 .container {
@@ -41,16 +50,16 @@ body {
 
 .title {
     font-size: 1.5rem;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--secondary-text);
 }
 
 .highlight {
-    color: #22D4FD;
+    color: var(--main-color);
 }
 
 .description {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-text);
     font-weight: 400;
 }
 
@@ -63,7 +72,7 @@ body {
 }
 
 .social-title {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--secondary-text);
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -78,15 +87,15 @@ body {
     padding: 16px 0;
     border-radius: 8px;
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-text);
     font-weight: 600;
     text-decoration: none;
-    border: 2px solid #22D4FD;
-    color: #F6F6F6;
+    border: 2px solid var(--main-color);
+    color: var(--secondary-color);
 }
 
 .social-link:hover {
-    background-color: #272727;
+    background-color: var(--terciary-color);
 }
 
 .social-link img {
@@ -99,12 +108,12 @@ body {
     align-items: center;
     justify-content: center;
     padding: 24px;
-    background-color: #22D4FD;
+    background-color: var(--main-color);
 }
 
 .footer p {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--primary-text);
     font-size: 1.5rem;
     font-weight: 400;
-    color: #272727;
+    color: var(--terciary-color);
 }
