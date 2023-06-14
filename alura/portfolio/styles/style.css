@@ -2,32 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body {
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
-.container {
-    padding: 6% 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 80px;
-}
-
-.card {
-    width: 593px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.title {
-    font-size: 36px;
-    font-family: "Krona One", sans-serif;
-}
-
 .header {
-    padding: 2% 0 0 10%;
+    padding: 2% 0 0 15%;
 }
 
 .nav-header {
@@ -37,10 +18,30 @@ body {
 
 .nav-link {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: #22D4FD;
+}
+
+.container {
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-family: "Krona One", sans-serif;
 }
 
 .highlight {
@@ -56,15 +57,15 @@ body {
 .social {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     gap: 32px;
 }
 
 .social-title {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .social-link {
@@ -72,11 +73,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    width: 378px;
+    width: 360px;
     text-align: center;
     padding: 16px 0;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -103,7 +104,7 @@ body {
 
 .footer p {
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #272727;
 }
