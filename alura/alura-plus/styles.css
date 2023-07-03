@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --main-white: #FFFFFF;
+    --secondary-gray: #C0C0C0;
+    --primary-button: #167BF7;
+    --background: #00030C;
+    --main-font: 'Inter', sans-serif;
+    --button-hover: #167BF7;
+    --button-active: #7cafec;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main {
+    background-image: url(/assets/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.box-content {
+    margin: 0 6em;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: var(--primary-button);
+    color: var(--main-white);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+    color: var(--main-white);
+}
+
+.advice {
+    font-size: 12px;
+    color: var(--secondary-gray);
+}
+
+.image {
+    margin: 1em 0 2em 0;
+}
+
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secondary-image {
+    width: 80%;
+}
+
+.secondary-title {
+    margin-bottom: 0.3em;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-white)
+}
+
+.secondary-description {
+    color: var(--secondary-gray);
+}
+
+.secondary-button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.devices-container {
+    text-align: center;
+}
+
+.device-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.device-list li {
+    text-align: center;
+}
+
+.device-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--main-white);
+}
+
+.footer {
+    text-align: center;
+    margin: 10em;
+}
+
+.footer-logo {
+    margin-bottom: 3em;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.footer-links li a {
+    color: var(--main-white);
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    color: var(--button-hover);
+}
+
+.footer-links li a:active {
+    color: var(--button-active);
+}
+
+.footer-description {
+    margin: 2em 0;
+    font-size: 14px;
+    color: var(--secondary-gray);
+}
