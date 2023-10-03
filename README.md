@@ -16,3 +16,4 @@ HTML e CSS.
 
 - [Portfólio](./alura/portfolio): Página criado para desenvolvimento de um portfólio online de um profissional front-end
 - [Alura Plus](./alura/alura-plus): Página web da plataforma de vídeos da Alura
+- [Alura Play](./alura/aluraplay/): Página web da plataforma de vídeos da Alura, focado no aprendizado do Flexbox CSS
